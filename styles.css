@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Zen Loop', cursive;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    color: inherit;
+}
+
+body {
+    position: relative;
+    background-color: #00a6edff;
+    min-height: 100vh;
+    padding-bottom: 4em;
+}
+
+.round-image {
+    border-radius: 0.8em;
+    width: 100%;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    padding: 0.25em;
+    background-color: #ffb400ff;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-between;
+    box-shadow: 0px 1px 20px black;
+    z-index: 1;
+
+}
+
+.menu > a {
+    padding: 1em 2em;
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+    border-radius: 0.5em;
+    text-decoration: none;
+}
+
+.menu > a:hover {
+    color: hsl(240, 82%, 57%);
+}
+
+.brand {
+    font-weight: bold;
+    font-size: 35px;
+    width: fit-content;
+    padding: 0.5em 1em;
+    color: hsl(240, 82%, 57%);
+    border-radius: 0.1em;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 93px;
+}
+
+
+h1 {
+    font-size: em;
+    font-weight: 1000;
+}
+
+img {
+margin: 0;
+padding: 0;
+    
+}
